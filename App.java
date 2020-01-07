@@ -29,13 +29,21 @@ public class App {
             }
 
         }
-        int gajiPokok = 4600897;
-        int tunjanganSuamiIstri = 10 / 100 * gajiPokok;
-        int tunjanganAnak = 4 * (gajiPokok * 2 / 100);
+        System.out.println();
+        double gajiPokok = 4600897;
+        double tunjanganSuamiIstri = gajiPokok * 10 / 100;
+        double tunjanganAnak = 4 * (gajiPokok * 2 / 100);
+        double iuranPensiun = gajiPokok * 4 / 100;
+        double penghasilanBruto = gajiPokok + tunjanganAnak + tunjanganSuamiIstri;
+        double penghasilanNetto = penghasilanBruto - iuranPensiun;
         System.out.println("Soal nomer 3 :");
         System.out.println();
         System.out.println("Gaji pokok = 4,600,897.00");
-        System.out.println("Tunjangan anak " + tunjanganAnak);
+        System.out.println("Tunjangan suami istri = " + tunjanganSuamiIstri);
+        System.out.println("Tunjangan anak = " + tunjanganAnak);
+        System.out.println("iuran pensiun = " + iuranPensiun);
+        System.out.println("Penghasilan Bruto = " + penghasilanBruto);
+        System.out.println("Penghasilan netto = " + penghasilanNetto);
 
     }
 
