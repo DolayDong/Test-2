@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import javafx.scene.input.KeyCharacterCombination;
-
 public class App {
     public static void main(String[] args) {
         double beratKg;
