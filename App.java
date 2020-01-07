@@ -29,6 +29,13 @@ public class App {
             }
 
         }
+        int gajiPokok = 4600897;
+        int tunjanganSuamiIstri = 10 / 100 * gajiPokok;
+        int tunjanganAnak = 4 * (gajiPokok * 2 / 100);
+        System.out.println("Soal nomer 3 :");
+        System.out.println();
+        System.out.println("Gaji pokok = 4,600,897.00");
+        System.out.println("Tunjangan anak " + tunjanganAnak);
 
     }
 
